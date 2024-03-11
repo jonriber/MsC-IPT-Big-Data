@@ -7,7 +7,7 @@ import justext
 import requests
 
 
-#%%
+#%% defining a function to get the text from a given url
 def get_text(url):
     text=""
     response = requests.get(url)
@@ -17,6 +17,7 @@ def get_text(url):
             text+=paragraph.text
     return text
 
+#%% searching for a query and getting the text from the first 10 results
 query = "Jonatas Magno Tavares Ribeiro"
 my_results_list = []
 
