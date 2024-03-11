@@ -44,3 +44,12 @@ USEFUL TOOLS:
 
 * JSON CRACK
 * MULE SOFT - WHAT IS AN API?
+
+### API EXAMPLE
+
+ARQUIVO.PT HAS SEVERAL AVAIABLE APIS, INCLUDING LEARNING TUTORIALS AND SUPPORT VIDEOS
+
+### SEARCH AND LEARN
+
+* crowdTangle API - extract data from social networks
+  * https://www.crowdtangle.com

@@ -1,0 +1,55 @@
+{
+    "result": "success",
+    "records": {
+        "504665901": {
+            "nif": 504665901,
+            "seo_url": "sys-match-consultores-de-sistemas-de-informacao-limitada",
+            "title": "Sys-Match - Consultores de Sistemas de Informação, Limitada",
+            "address": "3Ce-Centro de Conhecimento, Competências e Empresas, Zona Ind. do Roligo, Rua 25 de Abril, Nº 313",
+            "pc4": "4520",
+            "pc3": "115",
+            "city": "Espargo",
+            "start_date": null,
+            "activity": null,
+            "status": "active",
+            "cae": "62090",
+            "contacts": {
+                "email": "recrutamento@sysmatch.com",
+                "phone": "213 304 403",
+                "website": "www.sysmatch.com",
+                "fax": "213 304 405"
+            },
+            "structure": {
+                "nature": "LDA",
+                "capital": "160000.00",
+                "capital_currency": "EUR"
+            },
+            "geo": {
+                "region": "Aveiro",
+                "county": "Santa Maria da Feira",
+                "parish": "Espargo"
+            },
+            "place": {
+                "address": "3Ce-Centro de Conhecimento, Competências e Empresas, Zona Ind. do Roligo, Rua 25 de Abril, Nº 313",
+                "pc4": "4520",
+                "pc3": "115",
+                "city": "Espargo"
+            },
+            "racius": "https://www.racius.com/sys-match-consultores-de-sistemas-de-informacao-limitada/",
+            "alias": "Sysmatch - Consultores de Sistemas de Informação Lda",
+            "portugalio": "https://www.portugalio.com/sysmatch/"
+        }
+    },
+    "nif_validation": true,
+    "is_nif": true,
+    "credits": {
+        "used": "free",
+        "left": {
+            "month": 999,
+            "day": 99,
+            "hour": 9,
+            "minute": 0,
+            "paid": 0
+        }
+    }
+}
