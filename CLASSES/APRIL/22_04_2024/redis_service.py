@@ -1,4 +1,5 @@
 import redis
+
 from redis.commands.search.indexDefinition import IndexDefinition
 
 def connect_redis():    
@@ -33,3 +34,4 @@ def drop_data(r, index_name, delete_documents=True):
         print('Index and data dropped')
     except:
         print('Index does not exist')
+        

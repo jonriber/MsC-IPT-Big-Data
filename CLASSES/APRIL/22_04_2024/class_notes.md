@@ -8,3 +8,8 @@ Using <https://huggingface.co> which is a website that contains a lot of useful 
 where there are a lot of top-of-the-edge tech that is being used today.
 
 
+## Today issues
+
+Today I faced a simple issue to turn on and connect to the redis service.\
+
+I need to check what is happening.
