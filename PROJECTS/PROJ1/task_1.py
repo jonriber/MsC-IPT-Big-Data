@@ -49,29 +49,24 @@ if __name__ == "__main__":
     destination_folder = "pdf_source"
     if not os.path.exists(destination_folder):
         os.makedirs(destination_folder)
+        
     for url in href_links:
         driver.get(url)
         
         download_button = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'file-download-button')))
-    
-        # Get the download link
         download_link = download_button.get_attribute('href')
         
-        # Download the file
 
         try:
             driver.get(download_link)
 
             file_name = download_link.split('/')[-1].split('?')[0]
-            # Wait for the file to be downloaded
-            time.sleep(20)  # Adjust the sleep time as needed
+            # time.sleep(20)  # Adjust the sleep time as needed
 
-            # Create the destination folder if it doesn't exist
             if not os.path.exists(destination_folder):
                 os.makedirs(destination_folder)
             time.sleep(20)  # Adjust the sleep time as needed
 
-            # Move the file to the destination folder
             shutil.move(file_name, f"{destination_folder}/{file_name}")
         except Exception as e:
             print("An error occurred:", e)

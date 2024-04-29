@@ -1,7 +1,5 @@
 import requests
 import logging
-import json
-import schedule
 import time
 
 logging.basicConfig(filename='api_data.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -36,12 +34,7 @@ def job():
 
         
 # if __name__ == "__main__":
-    
-# retrieve_data_from_api()
-# Schedule the job every hour
-# schedule.every().hour.do(job)
 
-# Run the schedule for 5 days
 for _ in range(24 * 5):
     print("Running the schedule",_)
     job()
